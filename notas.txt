@@ -1,0 +1,25 @@
+git --version: para ver la version de git
+
+configuracion de git:
+git config --global user.name "Santiturneo"
+git config --global user.email "santiagoturneo@gmail.com"
+git config --list
+
+-comando para iniciar:
+git init:  comando para inicializar git en nuestro proyecto
+
+-comando para relacionar nuestro repositorio
+ git remote add origin https://github.com/Santiturneo/git.git
+
+-Revisa el estado de nuestro proyecto:
+git status
+
+-Comando para agregr a la lista de elementos a enviar a github:
+git add "nombre del archivo" (selecciona el archivo especifico)
+git add * / git add . (selecciona todo)
+
+-Comando para darle descripcion al cambio:
+git commit -m "Mensaje descriptivo del cambio"
+
+-
+git push -u origin master
